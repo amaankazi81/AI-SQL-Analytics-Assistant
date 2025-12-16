@@ -95,13 +95,13 @@ User (English Query)
 
 ## 🔐 Safety & Reliability
 
-    - ❌ No DELETE / DROP / UPDATE queries
-    
-    - ✅ Read-only SELECT queries
-    
-    - 🧠 Schema-aware SQL generation
-    
-    - 🎯 Deterministic outputs using controlled temperature
+- ❌ No DELETE / DROP / UPDATE queries
+
+- ✅ Read-only SELECT queries
+
+- 🧠 Schema-aware SQL generation
+
+- 🎯 Deterministic outputs using controlled temperature
 
 
 ## 🧠 Design Decisions
