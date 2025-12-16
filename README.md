@@ -58,18 +58,18 @@ User (English Query)
 ## ⚙️ Installation & Setup
 
 1️⃣ **Clone the Repository**
-    ```
-      git clone https://github.com/your-username/ai-nl-to-sql.git
-      cd ai-nl-to-sql
+            ```
+              git clone https://github.com/your-username/ai-nl-to-sql.git
+              cd ai-nl-to-sql
 
 2️⃣ **Create Virtual Environment**
-    ```
-      python -m venv venv
-      venv\Scripts\activate   # Windows
+            ```
+              python -m venv venv
+              venv\Scripts\activate   # Windows
 
 3️⃣ **Install Dependencies**
-    ```
-      pip install -r requirements.txt
+            ```
+              pip install -r requirements.txt
 
 4️⃣ **Environment Variables**
 
@@ -85,8 +85,8 @@ User (English Query)
     OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
 
 ▶️ **Run the Application**
-    ```
-      streamlit run app.py
+            ```
+              streamlit run app.py
       
 
 
