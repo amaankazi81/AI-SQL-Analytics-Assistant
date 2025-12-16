@@ -93,6 +93,7 @@ User (English Query)
           streamlit run app.py
       
 
+
 ## 🔐 Safety & Reliability
 
 - ❌ No DELETE / DROP / UPDATE queries
@@ -104,6 +105,7 @@ User (English Query)
 - 🎯 Deterministic outputs using controlled temperature
 
 
+
 ## 🧠 Design Decisions
   
   - SQL Agent instead of SQL chains for higher accuracy and robustness
@@ -113,6 +115,7 @@ User (English Query)
   - Modular LLM integration for easy provider switching
   
   - Streamlit UI for rapid prototyping and interactivity
+
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
