@@ -64,11 +64,13 @@ User (English Query)
        cd ai-nl-to-sql
 
 2️⃣ **Create Virtual Environment**
+
     ```
       python -m venv venv
       venv\Scripts\activate   # Windows
 
 3️⃣ **Install Dependencies**
+
      ```
        pip install -r requirements.txt
 
@@ -86,6 +88,7 @@ User (English Query)
     OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
 
 ▶️ **Run the Application**
+
             ```
               streamlit run app.py
       
