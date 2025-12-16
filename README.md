@@ -93,7 +93,6 @@ User (English Query)
           streamlit run app.py
       
 
-
 ## 🔐 Safety & Reliability
 
     - ❌ No DELETE / DROP / UPDATE queries
