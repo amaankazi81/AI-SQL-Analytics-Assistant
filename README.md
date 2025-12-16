@@ -89,8 +89,8 @@ User (English Query)
 
 ▶️ **Run the Application**
 
-            ```
-              streamlit run app.py
+        ```
+          streamlit run app.py
       
 
 
