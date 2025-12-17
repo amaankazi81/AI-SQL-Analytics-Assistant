@@ -56,36 +56,50 @@ Natural Language Answer
 | LLM      | OpenAI / Gemini       |
 | Others   | dotenv                |
 
+---
+
+## 📂 Project Structure
+   - **Project Structure is as follow:**
+      ```
+        AI-SQL-Analytics-Assistant/
+        │
+        ├── app.py               # Streamlit application
+        ├── database.py          # DB connection & engine
+        ├── agent.py             # LangChain SQL Agent logic
+        ├── requirements.txt     # Python dependencies
+        ├── .env                 # Environment variables
+        └── README.md            # Project documentation
+
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the Repository**
+  1. **Clone the Repository**
         ```
         git clone https://github.com/your-username/ai-nl-to-sql.git
         cd AI-SQL-Analytics-Assistant
 
-2 **Create Virtual Environment**
+  2 **Create Virtual Environment**
         ```
           python -m venv venv
           venv\Scripts\activate   
     
-3.**Install Dependencies**
+  3.**Install Dependencies**
         ```
           pip install -r requirements.txt
     
-4️ **Environment Variables**
-    Create a .env file in the root directory:
+  4️ **Environment Variables**
+        Create a .env file in the root directory:
             
-                ```
-                    MYSQL_USER=root
-                    MYSQL_PASSWORD=your_password
-                    MYSQL_HOST=localhost
-                    MYSQL_PORT=3306
-                    MYSQL_DATABASE=atliq_tees
-            
-                    OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
+        ```
+            MYSQL_USER=root
+            MYSQL_PASSWORD=your_password
+            MYSQL_HOST=localhost
+            MYSQL_PORT=3306
+            MYSQL_DATABASE=atliq_tees
     
-5. **Run the Application**
+            OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
+    
+  5. **Run the Application**
         ```
           streamlit run app.py
       
