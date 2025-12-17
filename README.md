@@ -22,20 +22,19 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 ---
 
 ## 🏗️ Architecture Overview
-    ```
-        User (English Query)
-            ↓
-        Streamlit UI
-            ↓
-        LangChain SQL Agent
-            ↓
-        LLM Reasoning
-            ↓
-        MySQL Database
-            ↓
-        Query Result
-            ↓
-        Natural Language Answer
+User (English Query)
+        ↓
+Streamlit UI
+        ↓
+LangChain SQL Agent
+        ↓
+LLM Reasoning
+        ↓
+MySQL Database
+        ↓
+Query Result
+        ↓
+Natural Language Answer
 
 🗄️ **Database Schema (Example)**
  
