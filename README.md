@@ -61,9 +61,9 @@ Natural Language Answer
 ## ⚙️ Installation & Setup
 
   1. **Clone the Repository**
-         ```
-            git clone https://github.com/your-username/ai-nl-to-sql.git
-            cd ai-nl-to-sql
+     ```
+        git clone https://github.com/your-username/ai-nl-to-sql.git
+        cd ai-nl-to-sql
 
   2 **Create Virtual Environment**
         ```
