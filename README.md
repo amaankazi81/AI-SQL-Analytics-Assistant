@@ -8,16 +8,19 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 🔤 Natural Language → SQL query generation
 
 🧠 Agent-based reasoning using LangChain SQL Agent
+<img width="1913" height="1027" alt="AID1" src="https://github.com/user-attachments/assets/288400e3-9360-44ed-ac8f-459c0b959472" />
 
 🗄️ Automatic schema understanding (no hardcoding)
 
 📊 Inventory, sales, and discount analytics
+<img width="1898" height="1026" alt="AID2" src="https://github.com/user-attachments/assets/34f13ce7-545c-4e76-b121-a86573e0b939" />
 
 🔐 Safe, read-only SQL execution
 
 ⚡ Real-time responses via Streamlit UI
 
 🔄 LLM-agnostic design (Gemini / OpenAI compatible)
+<img width="1917" height="1022" alt="AID3" src="https://github.com/user-attachments/assets/7a358575-dfb3-456b-9035-dc2dec44f120" />
 
 ---
 
