@@ -1,6 +1,7 @@
 # 🧠 AI-SQL-Analytics-Assistant
 An AI-driven SQL analytics assistant that allows users to query a MySQL database using plain English. Built using LangChain SQL Agent, LLM, and Streamlit, this system automatically converts natural language questions into SQL queries, executes them safely, and returns human-readable answers.
 
+---
 
 ## 🚀 Features
 
@@ -18,23 +19,23 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 
 🔄 LLM-agnostic design (Gemini / OpenAI compatible)
 
+---
 
 ## 🏗️ Architecture Overview
-- **Project Architecture is as follow:**
-            ```
-                User (English Query)
-                        ↓
-                    Streamlit UI
-                        ↓
-                 LangChain SQL Agent
-                        ↓
-                     LLM Reasoning
-                        ↓
-                     MySQL Database
-                        ↓
-                 Query Result
-                        ↓
-                 Natural Language Answer
+
+User (English Query)
+    ↓
+Streamlit UI
+    ↓
+LangChain SQL Agent
+    ↓
+LLM Reasoning
+    ↓
+MySQL Database
+    ↓
+Query Result
+    ↓
+Natural Language Answer
 
 🗄️ **Database Schema (Example)**
  
@@ -42,7 +43,7 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
             inventory(product_id, stock_qty)
             sales(product_id, price, discount_percentage)
 
-
+---
 
 ## 🧩 Tech Stack
 
@@ -56,12 +57,12 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 | LLM      | OpenAI / Gemini       |
 | Others   | dotenv                |
 
+---
 
 ## ⚙️ Installation & Setup
 
-   1️. **Clone the Repository**
-
-             ```
+  1. **Clone the Repository**
+            ```
                git clone https://github.com/your-username/ai-nl-to-sql.git
                cd ai-nl-to-sql
 
