@@ -22,19 +22,21 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 ---
 
 ## 🏗️ Architecture Overview
-User (English Query)
-        ↓
-Streamlit UI
-        ↓
-LangChain SQL Agent
-        ↓
-LLM Reasoning
-        ↓
-MySQL Database
-        ↓
-Query Result
-        ↓
-Natural Language Answer
+  - **Project Architecture: **
+        ```
+        User (English Query)
+            ↓
+        Streamlit UI
+            ↓
+        LangChain SQL Agent
+            ↓
+        LLM Reasoning
+            ↓
+        MySQL Database
+            ↓
+        Query Result
+            ↓
+        Natural Language Answer
 
 🗄️ **Database Schema (Example)**
  
@@ -75,25 +77,22 @@ Natural Language Answer
 
   1. **Clone the repository**
       ```
-        git clone https://github.com/your-username/ai-nl-to-sql.git
-
-  2. **Navigate into project directory**
-      ```
+        git clone https://github.com/amaankazi81/AI-SQL-Analytics-Assistant.git
         cd AI-SQL-Analytics-Assistant
 
-  3. **Create virtual environment**
+  2. **Create virtual environment**
       ```
         python -m venv venv
 
-  4. **Activate virtual environment (Windows)**
+  3. **Activate virtual environment (Windows)**
       ```
         source venv/Scripts/activate
 
-  5. **Install dependencies**
+  4. **Install dependencies**
       ```
         pip install -r requirements.txt
 
-  6. **Run the Streamlit application**
+  5. **Run the Streamlit application**
       ```
         streamlit run app.py
 
