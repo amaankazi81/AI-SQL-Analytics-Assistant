@@ -36,7 +36,7 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
                         ↓
                  Natural Language Answer
 
- 🗄️ **Database Schema (Example)**
+🗄️ **Database Schema (Example)**
  
             products(product_id, brand, color, size, category)
             inventory(product_id, stock_qty)
@@ -59,11 +59,11 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 
 ## ⚙️ Installation & Setup
 
-1️. **Clone the Repository**
+   1️. **Clone the Repository**
 
-     ```
-       git clone https://github.com/your-username/ai-nl-to-sql.git
-       cd ai-nl-to-sql
+             ```
+               git clone https://github.com/your-username/ai-nl-to-sql.git
+               cd ai-nl-to-sql
 
 2️⃣ **Create Virtual Environment**
 
