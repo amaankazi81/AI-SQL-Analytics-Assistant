@@ -73,8 +73,9 @@ Natural Language Answer
 
 ## ⚙️ Installation & Setup
 
-```bash
-git clone https://github.com/your-username/ai-nl-to-sql.git
+1. **Clone the repository**
+        ```bash
+        git clone https://github.com/your-username/ai-nl-to-sql.git
 
 # Navigate into project directory
 cd AI-SQL-Analytics-Assistant
