@@ -78,11 +78,10 @@ Natural Language Answer
         git clone https://github.com/your-username/ai-nl-to-sql.git
         cd AI-SQL-Analytics-Assistant
 
-
   2 **Create Virtual Environment**
-        ```
-          python -m venv venv
-          venv\Scripts\activate   
+         ```
+           python -m venv venv
+           venv\Scripts\activate   
     
   3.**Install Dependencies**
         ```
