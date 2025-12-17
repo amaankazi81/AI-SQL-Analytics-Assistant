@@ -22,8 +22,8 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 ---
 
 ## 🏗️ Architecture Overview
-  - **Project Architecture: **
-        ```
+   - **Project Architecture:**
+      ```
         User (English Query)
             ↓
         Streamlit UI
@@ -37,6 +37,7 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
         Query Result
             ↓
         Natural Language Answer
+
 
 🗄️ **Database Schema (Example)**
  
