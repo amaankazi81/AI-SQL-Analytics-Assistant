@@ -74,7 +74,6 @@ Natural Language Answer
 ## ⚙️ Installation & Setup
 
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/ai-nl-to-sql.git
 
 # Navigate into project directory
