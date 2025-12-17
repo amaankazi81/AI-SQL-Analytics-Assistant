@@ -66,29 +66,29 @@ Natural Language Answer
         cd ai-nl-to-sql
 
   2 **Create Virtual Environment**
-        ```
-          python -m venv venv
-          venv\Scripts\activate   
+    ```
+      python -m venv venv
+      venv\Scripts\activate   
 
   3.**Install Dependencies**
-        ```
-          pip install -r requirements.txt
+    ```
+      pip install -r requirements.txt
 
   4️ **Environment Variables**
         Create a .env file in the root directory:
         
-        ```
-            MYSQL_USER=root
-            MYSQL_PASSWORD=your_password
-            MYSQL_HOST=localhost
-            MYSQL_PORT=3306
-            MYSQL_DATABASE=atliq_tees
+    ```
+        MYSQL_USER=root
+        MYSQL_PASSWORD=your_password
+        MYSQL_HOST=localhost
+        MYSQL_PORT=3306
+        MYSQL_DATABASE=atliq_tees
 
-            OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
+        OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
 
   6. **Run the Application**
-        ```
-          streamlit run app.py
+    ```
+      streamlit run app.py
       
 
 
