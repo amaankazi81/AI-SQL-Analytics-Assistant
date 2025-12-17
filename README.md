@@ -20,25 +20,27 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 
 
 ## 🏗️ Architecture Overview
-
-User (English Query)
-        ↓
-    Streamlit UI
-        ↓
- LangChain SQL Agent
-        ↓
-     LLM Reasoning
-        ↓
-     MySQL Database
-        ↓
- Query Result
-        ↓
- Natural Language Answer
+        - **Project Architecture is as follow:
+            ```
+                User (English Query)
+                        ↓
+                    Streamlit UI
+                        ↓
+                 LangChain SQL Agent
+                        ↓
+                     LLM Reasoning
+                        ↓
+                     MySQL Database
+                        ↓
+                 Query Result
+                        ↓
+                 Natural Language Answer
 
  🗄️ **Database Schema (Example)**
-    products(product_id, brand, color, size, category)
-    inventory(product_id, stock_qty)
-    sales(product_id, price, discount_percentage)
+ 
+            products(product_id, brand, color, size, category)
+            inventory(product_id, stock_qty)
+            sales(product_id, price, discount_percentage)
 
 
 
@@ -57,7 +59,7 @@ User (English Query)
 
 ## ⚙️ Installation & Setup
 
-1️⃣ **Clone the Repository**
+1️. **Clone the Repository**
 
      ```
        git clone https://github.com/your-username/ai-nl-to-sql.git
