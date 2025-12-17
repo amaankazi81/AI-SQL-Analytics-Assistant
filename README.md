@@ -22,20 +22,20 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 ---
 
 ## 🏗️ Architecture Overview
-
-User (English Query)
-    ↓
-Streamlit UI
-    ↓
-LangChain SQL Agent
-    ↓
-LLM Reasoning
-    ↓
-MySQL Database
-    ↓
-Query Result
-    ↓
-Natural Language Answer
+    ```
+        User (English Query)
+            ↓
+        Streamlit UI
+            ↓
+        LangChain SQL Agent
+            ↓
+        LLM Reasoning
+            ↓
+        MySQL Database
+            ↓
+        Query Result
+            ↓
+        Natural Language Answer
 
 🗄️ **Database Schema (Example)**
  
@@ -60,35 +60,35 @@ Natural Language Answer
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the Repository**
-     ```
-        git clone https://github.com/your-username/ai-nl-to-sql.git
-        cd AI-SQL-Analytics-Assistant
+  1. **Clone the Repository**
+         ```
+            git clone https://github.com/your-username/ai-nl-to-sql.git
+            cd AI-SQL-Analytics-Assistant
 
-2 **Create Virtual Environment**
-    ```
-      python -m venv venv
-      venv\Scripts\activate   
-
-3.**Install Dependencies**
-    ```
-      pip install -r requirements.txt
-
-4️ **Environment Variables**
-        Create a .env file in the root directory:
-        
-    ```
-        MYSQL_USER=root
-        MYSQL_PASSWORD=your_password
-        MYSQL_HOST=localhost
-        MYSQL_PORT=3306
-        MYSQL_DATABASE=atliq_tees
-
-        OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
-
-5. **Run the Application**
-    ```
-      streamlit run app.py
+  2 **Create Virtual Environment**
+        ```
+          python -m venv venv
+          venv\Scripts\activate   
+    
+  3.**Install Dependencies**
+        ```
+          pip install -r requirements.txt
+    
+  4️ **Environment Variables**
+            Create a .env file in the root directory:
+            
+        ```
+            MYSQL_USER=root
+            MYSQL_PASSWORD=your_password
+            MYSQL_HOST=localhost
+            MYSQL_PORT=3306
+            MYSQL_DATABASE=atliq_tees
+    
+            OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
+    
+  5. **Run the Application**
+        ```
+          streamlit run app.py
       
 
 
