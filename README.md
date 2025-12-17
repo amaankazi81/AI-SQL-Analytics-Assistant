@@ -20,7 +20,7 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
 
 
 ## 🏗️ Architecture Overview
-        - **Project Architecture is as follow:
+- **Project Architecture is as follow:**
             ```
                 User (English Query)
                         ↓
