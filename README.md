@@ -73,57 +73,29 @@ Natural Language Answer
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/ai-nl-to-sql.git
-
-# Navigate into project directory
-cd AI-SQL-Analytics-Assistant
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment (Git Bash - Windows)
-source venv/Scripts/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the Streamlit application
-streamlit run app.py
-
-
-
-  1. **Clone the Repository**
-        ```
+  1. **Clone the repository**
+      ```
         git clone https://github.com/your-username/ai-nl-to-sql.git
+
+  2. **Navigate into project directory**
+      ```
         cd AI-SQL-Analytics-Assistant
 
-  2 **Create Virtual Environment**
-         ```
-           python -m venv venv
-           venv\Scripts\activate   
-    
-  3.**Install Dependencies**
-        ```
-          pip install -r requirements.txt
-    
-  4️ **Environment Variables**
-        Create a .env file in the root directory:
-            
-        ```
-            MYSQL_USER=root
-            MYSQL_PASSWORD=your_password
-            MYSQL_HOST=localhost
-            MYSQL_PORT=3306
-            MYSQL_DATABASE=atliq_tees
-    
-            OPENAI/GEMINI_API_KEY=your_openai/gemini_api_key
-    
-  5. **Run the Application**
-        ```
-          streamlit run app.py
-      
+  3. **Create virtual environment**
+      ```
+        python -m venv venv
+
+  4. **Activate virtual environment (Windows)**
+      ```
+        source venv/Scripts/activate
+
+  5. **Install dependencies**
+      ```
+        pip install -r requirements.txt
+
+  6. **Run the Streamlit application**
+      ```
+        streamlit run app.py
 
 
 ## 🔐 Safety & Reliability
