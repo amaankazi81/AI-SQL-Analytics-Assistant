@@ -73,6 +73,27 @@ Natural Language Answer
 
 ## ⚙️ Installation & Setup
 
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-nl-to-sql.git
+
+# Navigate into project directory
+cd AI-SQL-Analytics-Assistant
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment (Git Bash - Windows)
+source venv/Scripts/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit application
+streamlit run app.py
+
+
+
   1. **Clone the Repository**
         ```
         git clone https://github.com/your-username/ai-nl-to-sql.git
