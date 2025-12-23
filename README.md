@@ -69,9 +69,8 @@ An AI-driven SQL analytics assistant that allows users to query a MySQL database
       ```
         AI-SQL-Analytics-Assistant/
         │
-        ├── app.py               # Streamlit application
-        ├── database.py          # DB connection & engine
-        ├── agent.py             # LangChain SQL Agent logic
+        ├── app.py               # Streamlit application, DB connection & engine LangChain SQL Agent logic
+        ├── utils.py             # Processing Links and PDFs
         ├── requirements.txt     # Python dependencies
         ├── .env                 # Environment variables
         └── README.md            # Project documentation
